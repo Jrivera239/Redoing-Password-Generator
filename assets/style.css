@@ -38,17 +38,34 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding:3px 0;
     color:rgb(180, 208, 208);
 }
 .head .copybtn{
     position: relative;
     align-items: center;
+    padding:5px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+
 }
 .head input{
     background-color:rgba(148, 171, 167, 0.578) ;
     border-radius: 6px;
+    width:80%;
+    padding:5px;
+   
 }
 
 #generatebtn{
     font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+#generatebtn:hover{
+    background-color: black;
+    color: white;
 }
