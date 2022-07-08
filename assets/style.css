@@ -51,10 +51,11 @@ body{
 
 }
 .head input{
-    background-color:rgba(148, 171, 167, 0.578) ;
+    background-color:rgb(255, 255, 255) ;
     border-radius: 6px;
     width:80%;
     padding:5px;
+    font-weight: bold;
    
 }
 
