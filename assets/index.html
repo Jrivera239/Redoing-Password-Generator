@@ -5,3 +5,35 @@
     <tittle> Redo Password Generator</tittle>
     <link rel="stylesheet" href="style.css">
 </head>
+<body>
+    <div class=" Content">
+        <h1>New Password Generator</h1>
+        <div class="head">
+            <input type = "text" id="pw">
+            <button class="copybtn" id="copybtn">COPY</button>
+        </div>
+        <div class="body">
+        <div class="forms">
+            <label for="length">Password Length</label>
+            <input type="numbers" id="length"
+            value="8" min="8" max="128">
+    </div>
+    <div class="forms">
+        <label for="uppercase">Use Uppercase</label>
+        <input type="checkbox" id="uppercase">
+    </div>
+
+    <div class="forms">
+        <label for="symbols">Use Symbol</label>
+        <input type="checkbox" id="symbol">
+    </div>
+    <div class="forms">
+        <label for="lowercase">Use Lowercase</label>
+        <input type="checkbox" id="lowercase">
+    </div>
+    <div class="forms">
+        <label for="numbers">Use Numbers</label>
+        <input type="checkbox" id="numbers">
+    </div>
+
+</body>
